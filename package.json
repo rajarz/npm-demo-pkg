@@ -7,7 +7,8 @@
     "rahul-demo"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "author": "Rahul Rajaram <rajaram.rahul91@gmail.com>",
   "license": "ISC",
@@ -15,5 +16,8 @@
     "type": "git",
     "url": "https://github.com/rajarz/npm-demo-pkg.git"
   },
-  "homepage": "https://github.com/rajarz/npm-demo-pkg.git#readme"
+  "homepage": "https://github.com/rajarz/npm-demo-pkg.git#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
